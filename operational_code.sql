@@ -1,3 +1,7 @@
+-- Scott Newby - Steampunk
+-- 2022-09-07
+-- DECPREICATED - use stored procedures to execute & make your life easier!
+
 -- SQL to create a process - your top-level ETL job/process
 insert into etl_tracking.etl_process (etl_process_name, etl_process_descr) values ('Druid', 'Druid NEDS load - 2022 POC')
 GO
